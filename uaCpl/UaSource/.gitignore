@@ -1,0 +1,10 @@
+#
+*.exe
+*.sh
+*Tag
+*.txt
+*.png
+*.geo
+*.html
+resources/
+

@@ -1,0 +1,17 @@
+
+fesom.x:28308 terminated with signal 11 at PC=2aaacd1a7c01 SP=7fffffff9930.  Backtrace:
+/usr/lib64/libfabric.so(+0x94c01)[0x2aaacd1a7c01]
+/global/AWIsoft/intel/2018/impi/2018.4.274/lib64/libmpi.so.12(+0x3ee0dc)[0x2aaab306c0dc]
+/global/AWIsoft/intel/2018/impi/2018.4.274/lib64/libmpi.so.12(+0x356ebb)[0x2aaab2fd4ebb]
+/global/AWIsoft/intel/2018/impi/2018.4.274/lib64/libmpi.so.12(+0x29cfa8)[0x2aaab2f1afa8]
+/global/AWIsoft/intel/2018/impi/2018.4.274/lib64/libmpi.so.12(+0xf5dd7)[0x2aaab2d73dd7]
+/global/AWIsoft/intel/2018/impi/2018.4.274/lib64/libmpi.so.12(+0xfb888)[0x2aaab2d79888]
+/global/AWIsoft/intel/2018/impi/2018.4.274/lib64/libmpi.so.12(+0x2f0c35)[0x2aaab2f6ec35]
+/global/AWIsoft/intel/2018/impi/2018.4.274/lib64/libmpi.so.12(+0x2f5be3)[0x2aaab2f73be3]
+/global/AWIsoft/intel/2018/impi/2018.4.274/lib64/libmpi.so.12(MPI_Init+0x5bb)[0x2aaab2f6105b]
+/global/AWIsoft/intel/2018/impi/2018.4.274/lib64/libmpifort.so.12(MPI_INIT+0x20)[0x2aaab29ae240]
+/home/ollie/orichter/Misomip2/oo0020/fesomSource/fesom.x[0x4a6f10]
+/home/ollie/orichter/Misomip2/oo0020/fesomSource/fesom.x[0x4f776c]
+/home/ollie/orichter/Misomip2/oo0020/fesomSource/fesom.x[0x404fde]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaab4259555]
+/home/ollie/orichter/Misomip2/oo0020/fesomSource/fesom.x[0x404ee9]
